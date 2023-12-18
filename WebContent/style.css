@@ -1,0 +1,53 @@
+:root {
+    --back: #151519;
+    --dark-gray: #1D1D20;
+    --light-gray: #C4C4C4;
+    --green: #45B578;
+    --hover-green: #45b577bd;
+  }
+  
+  body {
+    background-color: var(--back);
+    color: white;
+  }
+  
+  .form-control {
+    background-color: var(--dark-gray);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .form-control::placeholder {
+    color: var(--light-gray);
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  /* Ajuste diretamente a classe .green-button */
+  .green-button {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Remova a cor azul no hover aplicada pelo Bootstrap */
+  .green-button:hover {
+    background-color: var(--hover-green);
+    color: white;
+    transition: all 0.3s;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: var(--light-gray);
+  }
+  ul:list-group {
+   color: var(--light-gray);
+  }
